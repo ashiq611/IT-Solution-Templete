@@ -1,0 +1,186 @@
+/* common css starts */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+      max-width: 1400px;
+    }
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+/* common css ends */
+
+.custom-btn{
+  padding: 13px 22px;
+  background: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #5956E8;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.custom-p{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #181818;
+  margin: 25px 0px;
+}
+
+.custom-title{
+   font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #181818;
+}
+
+
+/* nav css starts */
+
+nav{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #181818;
+  background-color: #E5E5E5;
+}
+
+nav .custom-btn{
+  background-color: #5956E8;
+  color: #FFFFFF;
+}
+
+
+
+/* nav css ends */
+
+/* wall css starts */
+
+#wall-main{
+  background: #5956E8;
+  padding: 182px 0px;
+}
+
+#wall-main .wall h2{
+  font-family: 'Inter', sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  color: #FFFEFE;
+}
+
+#wall-main .wall .custom-p{
+  color: #FFFEFE;
+}
+
+
+
+
+
+
+/* wall css ends */
+
+
+/* services css starts */
+
+
+
+#services-main .services .service{
+  padding: 63px 48px;
+  border: 1px solid #E5E5E5;
+  margin-bottom: 20px;
+}
+
+#services-main .services .service .icon{
+  margin-bottom: 20px;
+  color: #5956E8;
+  padding: 20px;
+  font-size: 30px;
+  border: 2px solid black;
+  transition: .4s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+
+#services-main .services .service:hover .icon{
+  background-color: #5956E8;
+  color: #E5E5E5;
+}
+
+#services-main .services .service:hover{
+  box-shadow: 3px 4px 5px 6px #E5E5E5
+}
+
+.s-title{
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #181818;
+}
+
+
+/* services css ends */
+
+/* portfolio css starts */
+
+/* #portfolio_main ul{
+  color: #E5E5E5;
+  background-color: #5956E8;
+} */
+
+
+/* portfolio css ends */
+
+/* news css starts */
+
+#news_main a{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5956E8;
+}
+
+
+
+
+
+
+/* news css ends */
